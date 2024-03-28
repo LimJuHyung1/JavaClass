@@ -1,6 +1,6 @@
 package sec06;
 
-public class Method2Demo {
+public class Method2Demo {		
 	public static void main(String[] args) {
 		System.out.println("합(1~10) : " + sum(1, 10));
 		System.out.println("합(10~100) : " + sum(10, 100));

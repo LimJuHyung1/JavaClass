@@ -10,7 +10,7 @@ public class Switch1Demo {
 			case 2:
 				System.out.print("*");
 			case 1:
-				System.out.print("*");
+				System.out.print("*");			
 		}
 	}
 }

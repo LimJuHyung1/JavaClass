@@ -1,3 +1,5 @@
+package sec06;
+
 import java.util.Scanner;
 
 public class Practice11 {
