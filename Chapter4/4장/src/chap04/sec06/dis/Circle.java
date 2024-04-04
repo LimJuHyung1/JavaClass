@@ -10,7 +10,7 @@ class Circle {
 	}
 
 	public Circle(double radius) {
-		this(radius, "ÆÄ¶û");
+		this(radius, "ï¿½Ä¶ï¿½");
 	}
 
 	public Circle(String color) {
@@ -18,6 +18,6 @@ class Circle {
 	}
 
 	public Circle() {
-		this(10.0, "»¡°­");
+		this(10.0, "ï¿½ï¿½ï¿½ï¿½");
 	}
 }
