@@ -6,10 +6,10 @@ public class ObjectArgumentDemo {
 		Circle c2 = new Circle(10.0);
 
 		zero(c1);
-		System.out.println("¿ø(c1)ÀÇ ¹İÁö¸§ : " + c1.radius);
+		System.out.println("ì›(c1)ì˜ ë°˜ì§€ë¦„ : " + c1.radius);
 
 		zero(c2.radius);
-		System.out.println("¿ø(c2)ÀÇ ¹İÁö¸§ : " + c2.radius);
+		System.out.println("ì›(c2)ì˜ ë°˜ì§€ë¦„ : " + c2.radius);
 	}
 
 	public static void zero(Circle c) {

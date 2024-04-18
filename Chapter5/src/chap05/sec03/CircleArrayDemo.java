@@ -22,7 +22,7 @@ public class CircleArrayDemo {
 
 		for (int i = 0; i < circles.length; i++) {
 			circles[i] = new Circle(i + 1.0);
-			System.out.printf("¿øÀÇ ³ÐÀÌ(¹ÝÁö¸§ : %.1f) = %.2f\n", circles[i].radius, circles[i].findArea());
+			System.out.printf("ì›ì˜ ë„“ì´(ë°˜ì§€ë¦„ : %.1f) = %.2f\n", circles[i].radius, circles[i].findArea());
 		}
 	}
 }
