@@ -1,9 +1,9 @@
 package sec08;
 
 public class Person {
-	String name = "»ç¶÷";
+	String name = "ì‚¬ëŒ";
 
-	void whoami() {
-		System.out.println("³ª´Â »ç¶÷ÀÌ´Ù.");
+	public void whoami() {
+		System.out.println("ë‚˜ëŠ” ì‚¬ëŒì´ë‹¤.");
 	}
 }

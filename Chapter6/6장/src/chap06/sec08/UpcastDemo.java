@@ -5,7 +5,7 @@ public class UpcastDemo {
 		Person p;
 		Student s = new Student();
 		
-		p = s;
+		p = s;	// 업캐스팅
 		
 		// p.number = 1;
 		// p.work();

@@ -1,4 +1,3 @@
-package sec08;
 
 class Vehicle {
 	String name = "탈 것";
@@ -23,12 +22,19 @@ class Car extends Vehicle {
 		System.out.println("달리다");
 	}
 }
-
-public class OverTypeDemo {
+public class Practice48{
+	public static void printMyName() {
+		System.out.println("------------------");
+		System.out.println("2019305061 임주형");
+		System.out.println("------------------\n");
+	}		
+	
 	public static void main(String[] args) {
-		Vehicle v = new Car();		// new Car() - Car 메서드로 오버라이드 된다.
+		printMyName();
+		
+		Vehicle v = new Car();		// new Car() - Car 메서드로 오버라이드 된다.(동적 바인딩?)
 		System.out.println(v.name);
 		v.whoami();
 		v.move();		// static 은 오버라이드 되지 않는다 - Car - move() 실행됨
-	}
+	}	
 }

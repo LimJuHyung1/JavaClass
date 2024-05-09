@@ -2,7 +2,7 @@ package sec08;
 
 class SportsCar extends Car {
 	void whoami() {
-		System.out.println("³ª´Â ½ºÆ÷Ã÷ ÀÚµ¿Â÷ÀÌ´Ù.");
+		System.out.println("ë‚˜ëŠ” ìŠ¤í¬ì¸  ìë™ì°¨ì´ë‹¤..");
 	}
 }
 
