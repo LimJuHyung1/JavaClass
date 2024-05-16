@@ -6,13 +6,13 @@ interface Animal {
 
 class Dog implements Animal {
 	public void sound() {
-		System.out.println("¸Û¸Û~~");
+		System.out.println("ë©ë©~~");
 	}
 }
 
 class Cuckoo implements Animal {
 	public void sound() {
-		System.out.println("»µ²Ú~~");
+		System.out.println("ë»ê¾¹~~");
 	}
 }
 
@@ -21,11 +21,12 @@ public class AnimalDemo {
 		Dog d = new Dog();
 		Cuckoo c = new Cuckoo();
 
-		makeSound(d);
+		makeSound(d);		
 		makeSound(c);
 	}
 
-	static void makeSound(Animal a) {
+	// ë‹¤ìš´ìºìŠ¤íŒ…
+	static void makeSound(Animal a) {	// animal a = d or c (?)
 		a.sound();
 	}
 }

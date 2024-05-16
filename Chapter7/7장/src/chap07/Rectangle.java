@@ -1,4 +1,4 @@
-package sec01;
+
 
 class Rectangle extends Shape {
 	int width, height;

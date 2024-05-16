@@ -6,10 +6,10 @@ public class AbstractClassDemo {
 
 		Circle c = new Circle(3);
 		c.draw();
-		System.out.printf("¿øÀÇ ³ĞÀÌ´Â %.1f\n", c.findArea());
+		System.out.printf("ì›ì˜ ë„“ì´ëŠ” %.1f\n", c.findArea());
 
 		Rectangle r = new Rectangle(3, 4);
 		r.draw();
-		System.out.printf("»ç°¢ÇüÀÇ ³ĞÀÌ´Â %.1f\n", r.findArea());
+		System.out.printf("ì‚¬ê°í˜•ì˜ ë„“ì´ëŠ”  %.1f\n", r.findArea());
 	}
 }

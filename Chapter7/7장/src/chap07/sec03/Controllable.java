@@ -13,6 +13,7 @@ public interface Controllable {
 		System.out.println(s);
 	}
 
+	// 추상 메소드
 	void turnOn();
 	void turnOff();
 }

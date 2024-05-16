@@ -2,10 +2,10 @@ package sec03;
 
 public class Computer implements Controllable {
 	public void turnOn() {
-		System.out.println("ÄÄÇ»ÅÍ¸¦ ÄÒ´Ù.");
+		System.out.println("ì»´í“¨í„°ë¥¼ ì¼ ë‹¤.");
 	}
 
 	public void turnOff() {
-		System.out.println("ÄÄÇ»ÅÍ¸¦ ²ö´Ù.");
+		System.out.println("ì»´í“¨í„°ë¥¼ ëˆë‹¤.");
 	}
 }

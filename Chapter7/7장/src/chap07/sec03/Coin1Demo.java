@@ -6,6 +6,6 @@ interface Coin {
 
 public class Coin1Demo {
 	public static void main(String[] args) {
-		System.out.println("DimeÀº " + Coin.DIME + "¼¾Æ®ÀÔ´Ï´Ù.");
+		System.out.println("Dimeì€ " + Coin.DIME + "ì„¼íŠ¸ì…ë‹ˆë‹¤.");
 	}
 }

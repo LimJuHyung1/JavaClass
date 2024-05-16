@@ -3,7 +3,7 @@ package sec03;
 public class Coin2Demo implements Coin {
 	public static void main(String[] args) {
 
-		System.out.println("DimeÀº " + DIME + "¼¾Æ®ÀÔ´Ï´Ù.");
+		System.out.println("Dimeì€ " + DIME + "ì„¼íŠ¸ì…ë‹ˆë‹¤.");
 
 	}
 }

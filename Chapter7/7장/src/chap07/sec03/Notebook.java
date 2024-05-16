@@ -6,15 +6,15 @@ interface Portable {
 
 public class Notebook extends Computer implements Portable {
 	public void inMyBag() {
-		System.out.println("³ëÆ®ºÏÀº °¡¹æ¿¡ ÀÖ´Ù.");
+		System.out.println("ë…¸íŠ¸ë¶ì€ ê°€ë°©ì— ìˆë‹¤.");
 	}
 
 	public void turnOn() {
-		System.out.println("³ëÆ®ºÏÀ» ÄÒ´Ù.");
+		System.out.println("ë…¸íŠ¸ë¶ì„ ì¼ ë‹¤.");
 	}
 
 	public void turnOff() {
-		System.out.println("³ëÆ®ºÏÀ» ²ö´Ù.");
+		System.out.println("ë…¸íŠ¸ë¶ì„ ëˆë‹¤.");
 	}
 
 	public static void main(String[] args) {

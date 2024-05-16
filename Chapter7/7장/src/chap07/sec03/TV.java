@@ -4,11 +4,11 @@ public class TV implements Controllable {
 
 	@Override
 	public void turnOn() {
-		System.out.println("TV¸¦ ÄÒ´Ù.");
+		System.out.println("TVë¥¼ ì¼ ë‹¤.");
 	}
 
 	@Override
 	public void turnOff() {
-		System.out.println("TV¸¦ ²ö´Ù.");
+		System.out.println("TVë¥¼ ëˆë‹¤.");
 	}
 }
