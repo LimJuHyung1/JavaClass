@@ -7,8 +7,9 @@ class Icon {
 }
 
 public class InnerInterfaceDemo implements Icon.Touchable {
+	
 	public void touch() {
-		System.out.println("¾ÆÀÌÄÜÀ» ÅÍÄ¡ÇÑ´Ù.");
+		System.out.println("ì•„ì´ì½˜ì„ í„°ì¹˜í•œë‹¤.");
 	}
 
 	public static void main(String[] args) {

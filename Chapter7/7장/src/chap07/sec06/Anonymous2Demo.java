@@ -4,7 +4,7 @@ public class Anonymous2Demo {
 	public static void main(String[] args) {
 		Bird b = new Bird() {
 			public void move() {
-				System.out.println("µ¶¼ö¸®°¡ ³­´Ù~~~.");
+				System.out.println("ë…ìˆ˜ë¦¬ê°€ ë‚œë‹¤~~~.");
 			}
 		};
 		b.move();

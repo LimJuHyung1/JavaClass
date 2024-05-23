@@ -1,4 +1,4 @@
-package sec06;
+
 
 public class Bird {
 	void move() {

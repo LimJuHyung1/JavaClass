@@ -1,14 +1,14 @@
 package sec05;
 
 public class MemberClassDemo {
-	private String secret = "ºñ°ø°³";
-	String s = "¿ÜºÎ";
+	private String secret = "ë¹„ê³µê°œ";
+	String s = "ì™¸ë¶€";
 
 	class MemberClass {
-		String s = "³»ºÎ";
+		String s = "ë‚´ë¶€";
 
 		public void show1() {
-			System.out.println("³»ºÎ Å¬·¡½º");
+			System.out.println("ë‚´ë¶€ í´ë˜ìŠ¤");
 			System.out.println(secret);
 
 			System.out.println(s);
@@ -16,7 +16,7 @@ public class MemberClassDemo {
 			System.out.println(MemberClassDemo.this.s);
 		}
 
-		// static String s3 = "Á¤Àû ¸â¹ö ÇÊµå";
+		// static String s3 = "ì •ì  ë§´ë²„ í•„ë“œ";
 		// static void show2() {}
 	}
 

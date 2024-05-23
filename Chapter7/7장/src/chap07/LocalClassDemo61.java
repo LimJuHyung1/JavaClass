@@ -1,6 +1,5 @@
-package sec05;
 
-public class LocalClassDemo {
+public class LocalClassDemo61 {
 	private String s1 = "외부";
 
 	void method() {
@@ -19,9 +18,16 @@ public class LocalClassDemo {
 		System.out.println(lc.s2);
 		lc.show();
 	}
-
+	
+	public static void printMyName() {
+		System.out.println("------------------");
+		System.out.println("2019305061 임주형");
+		System.out.println("------------------\n");
+	}	
+	
 	public static void main(String[] args) {
-		LocalClassDemo lcd = new LocalClassDemo();
+		printMyName();
+		LocalClassDemo61 lcd = new LocalClassDemo61();
 		lcd.method();
 	}
 }

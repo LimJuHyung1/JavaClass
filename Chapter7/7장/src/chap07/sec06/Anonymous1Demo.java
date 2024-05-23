@@ -3,11 +3,11 @@ package sec06;
 public class Anonymous1Demo {
 	Bird e = new Bird() {
 		public void move() {
-			System.out.println("µ¶¼ö¸®°¡ ³­´Ù~~~.");
+			System.out.println("ë…ìˆ˜ë¦¬ê°€ ë‚œë‹¤~~~.");
 		}
 
 		void sound() {
-			System.out.println("ÈÖÀÍ~~~.");
+			System.out.println("íœ˜ìµ~~~.");
 		}
 	};
 
