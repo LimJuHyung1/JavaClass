@@ -1,8 +1,6 @@
-package sec03;
-
 import java.util.Arrays;
 
-public class ArraysDemo {
+public class Practice73 {
 	public static void main(String[] args) {
 		char[] a1 = { 'J', 'a', 'v', 'a' };
 		char[] a2 = Arrays.copyOf(a1, a1.length);
@@ -18,6 +16,8 @@ public class ArraysDemo {
 
 		Arrays.fill(sa, 2, 4, "기타");
 		print(sa);
+	      		
+		print(Arrays.copyOfRange(sa, 0, 2));
 	}
 
 	static void print(Object[] oa) {

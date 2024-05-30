@@ -1,4 +1,3 @@
-package sec02;
 
 class Garbage {
 	public int no;
@@ -13,7 +12,7 @@ class Garbage {
 	}
 }
 
-public class GarbageDemo {
+public class Practice71 {
 	public static void main(String[] args) {
 		for (int i = 0; i < 3; i++) 
 			new Garbage(i);
