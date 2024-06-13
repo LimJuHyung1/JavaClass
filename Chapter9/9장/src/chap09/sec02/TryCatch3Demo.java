@@ -6,11 +6,11 @@ public class TryCatch3Demo {
 		try {
 			int x = array[3];
 		} catch (Exception e) {
-			System.out.println("¾îÀÌÄí!!!");
+			System.out.println("ì–´ì´ì¿ !!!");
 		} 
 //		catch (ArrayIndexOutOfBoundsException e) {
-//					System.out.println("¿ø¼Ò°¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.");
+//					System.out.println("ì›ì†Œê°€ ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 //		}
-		System.out.println("Á¾·á.");
+		System.out.println("ì¢…ë£Œ.");
 	}
 }

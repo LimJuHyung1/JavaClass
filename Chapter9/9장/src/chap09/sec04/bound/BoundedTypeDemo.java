@@ -12,6 +12,7 @@ public class BoundedTypeDemo {
     }
 }
 
+// Beverage 자식 클래스만 넣을 수 있다
 class Cup<T extends Beverage> {
     private T beverage;
 

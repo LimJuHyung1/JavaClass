@@ -10,4 +10,8 @@ public class Cup<T> {
     public void setBeverage(T beverage) {
         this.beverage = beverage;
     }
+    
+    public void printMyType() {
+    	System.out.println("제 타입은 " + beverage.getClass() + " 입니다");
+    }
 }
